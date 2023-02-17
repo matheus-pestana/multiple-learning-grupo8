@@ -2,10 +2,11 @@
 :root {
     --red: #e30613;
     --black: #000000;
-    --white: #ffffff;
+    --light-blue: #c2d0eb;
     --gray: #878787;
     --redMedium: #9a1915;
     --redDark: #681413;
+    --white: #ffffff;
 }
 /* AQUI ESTÃO SOMENTE AS TAGS COM SUAS PROPRIEDADES */
 *{
@@ -25,7 +26,7 @@ body {
     font-weight: 400;
     line-height: 1.5;
     text-align: left;
-    background-color: var(--white) ;
+    background-color: var(--light-blue)   ;
     width: 100%;
     height: 100%;
     
@@ -93,15 +94,17 @@ footer{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    padding: 50px 0 20px 0;
+    padding: 40px 350px 20px 0px;
 }
 
 .navbar-menu {
     display: flex;
+    
 }
 
 .navbar-logo {
-    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 200px 20px 0px;
 }
 
 .navbar-items {
@@ -110,11 +113,18 @@ footer{
     list-style: none;
     margin-left: auto;
     margin-right: auto;
+    padding: 0px 100px 0px 0px;
+    justify-content: space-evenly;
 }
 
 .navbar-items-menu {
-    padding: 0;
+    padding: 0px 10px 0px 10px;
     border-bottom: 5px solid transparent;
+}
+
+#multiple-learning {
+    padding: 0px;
+    width: 400px;
 }
 
 .nav-link {
