@@ -123,8 +123,8 @@ footer{
 }
 
 #multiple-learning {
-    padding: 0px;
-    width: 400px;
+    margin-right: 100px;
+    width: 600px;
 }
 
 .nav-link {
@@ -156,3 +156,33 @@ footer{
     justify-content: center;
     text-align: center;
 }
+
+#elefante {
+    width: 400px;
+    justify-content: flex-end;
+}
+
+#video {
+    align-self: left;
+    float: left;
+}
+
+#texto-verbo {
+    text-align: right;
+}
+
+.videos {
+    flex-wrap: wrap;
+}
+
+.titulo {
+    padding: 20px;
+}
+
+.texto {
+    flex-wrap: wrap;
+    display: flex;
+    padding: 40px 0px 0px 50px;
+    color:#000000;
+}
+
