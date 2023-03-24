@@ -198,3 +198,7 @@ footer {
     display: block;
     position: relative;
 }
+
+.texto-paragrafo{
+    text-align: justify;
+}
