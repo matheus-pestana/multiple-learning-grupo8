@@ -1,0 +1,148 @@
+/* PADRÃO DE CORES DO MANUAL SENAI */
+:root {
+    --red: #e30613;
+    --black: #000000;
+    --white: #ffffff;
+    --gray: #878787;
+    --redMedium: #9a1915;
+    --redDark: #681413;
+}
+/* AQUI ESTÃO SOMENTE AS TAGS COM SUAS PROPRIEDADES */
+*{
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth !important;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    background-color: var(--gray) ;
+    width: 100%;
+    height: 100%;
+    
+}
+
+header {
+    background-color: var(--white);
+    color: var(--black);
+    /* min-height: 60px; */
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+a {
+    text-decoration: none;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+main {
+    max-width: 1140px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+    padding-top: 16px;
+    padding-bottom: 4px;
+    margin: 0;
+    color: var(--black);
+}
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+    padding-top: 16px;
+    padding-bottom: 4px;
+    margin: 0;
+    color: var(--black);
+}
+
+footer{
+    background-color: var(--red);
+    width: 100%;
+    height: 25%;
+    bottom: 0;
+    z-index: 999;
+}
+/* AQUI COMEÇA OS STYLES DAS CLASSES E IDS */
+.container {
+    max-width: 1140px;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px 0 20px 0;
+}
+
+.navbar-menu {
+    display: flex;
+}
+
+.navbar-logo {
+    align-items: center;
+}
+
+.navbar-items {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar-items-menu {
+    padding: 0;
+    border-bottom: 5px solid transparent;
+}
+
+.nav-link {
+    font-weight: 700;
+    color: var(--black);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footer-icons {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.items-social-media {
+    color: var(--white);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+}
+
+.footer-link {
+    color: var(--white);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
