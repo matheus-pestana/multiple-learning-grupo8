@@ -101,8 +101,8 @@ footer {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-evenly;
-    padding: 40px 100px 20px 0px;
+    justify-content: center;
+    padding: 40px 100px 0px 0px;
 }
 
 .navbar-menu {
@@ -111,18 +111,14 @@ footer {
 }
 
 .navbar-logo {
-    justify-content: flex-start;
-    padding: 0px 200px 20px 0px;
+    justify-content: center;
 }
 
 .navbar-items {
     display: flex;
     flex-direction: row;
     list-style: none;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0px 100px 0px 0px;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .navbar-items-menu {
@@ -137,13 +133,11 @@ footer {
 .nav-link {
     font-weight: 700;
     color: var(--black);
-    padding-left: 10px;
-    padding-right: 10px;
+
 }
 
 .footer-icons {
     display: flex;
-    padding: 10px;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -172,6 +166,7 @@ footer {
 #video {
     align-self: left;
     float: left;
+    padding-right: 10px;
 }
 
 #texto-verbo {
@@ -179,14 +174,14 @@ footer {
 }
 
 .titulo {
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
 
 .texto {
     font-size: 20px;
     flex-wrap: wrap;
     display: flex;
-    padding: 5px 0px 0px 50px;
+    padding: 5px 0px 0px 30px;
     color: #000000;
 }
 
@@ -253,13 +248,11 @@ footer {
 }
 
 h2 {
-    margin-bottom: 20px;
     margin-top: 10px;
     font-family: 'McLaren', cursive;
 }
 
 #interatividade {
-    margin-top: 150px;
     width: 100%;
     text-align: center;
 }

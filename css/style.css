@@ -9,6 +9,7 @@
 }
 /* AQUI ESTÃO SOMENTE AS TAGS COM SUAS PROPRIEDADES */
 *{
+    align-items: center;
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
     scroll-behavior: smooth !important;
@@ -60,7 +61,6 @@ h1 {
     text-align: center;
     font-size: 48px;
     padding-top: 16px;
-    padding-bottom: 4px;
     margin: 0;
     color: var(--black);
 }
