@@ -1,4 +1,3 @@
-/* PADRÃO DE CORES DO MANUAL SENAI */
 :root {
     --red: #e30613;
     --black: #000000;
@@ -9,7 +8,6 @@
     --white: #ffffff;
 }
 
-/* AQUI ESTÃO SOMENTE AS TAGS COM SUAS PROPRIEDADES */
 * {
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
@@ -36,7 +34,6 @@ body {
 header {
     background-color: var(--white);
     color: var(--black);
-    /* min-height: 60px; */
     width: 100%;
     position: sticky;
     top: 0;
@@ -94,7 +91,6 @@ footer {
     margin-top: 50px;
 }
 
-/* AQUI COMEÇA OS STYLES DAS CLASSES E IDS */
 .container {
     max-width: 1140px;
 }
@@ -237,7 +233,7 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
-    [class*="col-"] {
+    [class="col-"] {
         width: 100%;
     }
 }
