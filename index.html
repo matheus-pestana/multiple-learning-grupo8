@@ -24,29 +24,41 @@
     <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=McLaren&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon" />
     <title>Multiple Learning - Verbos</title>
 </head>
 
 <body>
     <header>
-        <nav class="navbar">
-            <a class="navbar-logo" href="main.html">
-                <img src="img/LogoSesiSenai.png" alt="Logo Sesi Senai" description="Logo do Sesi e do Senai">
-            </a>
-            <div class="navbar-menu">
-                <ul class="navbar-items">
-                    <li class="navbar-items-menu">
-                        <a class="nav-link" href=".html">Home</a>
-                    </li>
-                    <li class="navbar-items-menu">
-                        <a class="nav-link" href="#videos">Vídeos</a>
-                    </li>
-                    <li class="navbar-items-menu">
-                        <a class="nav-link" href="#interatividade">Interatividade</a>
-                    </li>
-                </ul>
+         <!-- Navbar -->
+         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <!-- Container wrapper -->
+            <div class="container-fluid">
+                <!-- Navbar brand -->
+                <a class="navbar-logo" href="index.html">
+                    <img src="img/LogoSesiSenai.png" alt="Logo Sesi Senai" description="Logo do Sesi e do Senai">
+                </a>
+
+                <!-- Toggle button -->
+                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                    data-mdb-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <!-- Collapsible wrapper -->
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link active" href="#videos">Vídeos</a>
+                        <a class="nav-link active" href="#interatividade">Interatividade</a>
+                    </div>
+                </div>
+                <!-- Collapsible wrapper -->
             </div>
+            <!-- Container wrapper -->
         </nav>
+        <!-- Navbar -->
     </header>
 
     <main>
@@ -64,9 +76,9 @@
 
         <h2>O que é verbo?</h2>
 
-        <div id="videos">
+        <div id="conteudo">
             <div class="video">
-                <iframe style="min-width:312px; max-width: 1124px; min-height: 250px; max-height: 720px;"
+                <iframe style="width: 500px; height: 380px;" 
                     src="https://www.youtube.com/embed/z0kLikINMLM" title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen>
@@ -85,7 +97,7 @@
             <h2>Modos Verbais</h2>
 
             <div class="video">
-                <iframe style="min-width:312px; max-width: 768px; min-height: 250px; max-height: 520px;"
+                <iframe style="width: 500px; height: 380px;"
                     src="https://www.youtube.com/embed/Bba9f-7JsvA" title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen></iframe>
